@@ -5,11 +5,11 @@ import "./index.css";
 const gallery = [
   ["/gallery/acm_inauguration.jpg", "ACM INAUGURATION", "COMMUNITY"],
   ["/gallery/care-e-thon.jpg", "CARE-E-THON", "HACKATHON"],
-  ["/gallery/img1.jpg", "WORKSHOP SESSION", "LEARN"],
-  ["/gallery/web-a-thon.jpg", "WEB-A-THON", "BUILD"],
+  ["/gallery/workshop-session.jpg", "WORKSHOP SESSION", "LEARN"],
+  ["/gallery/design.jpg", "DESIGN-ATHON", "BUILD"],
   ["/gallery/img2.jpg", "TECH TALK", "CONNECT"],
   ["/gallery/img4.jpg", "CODING COMPETITION", "COMPETE"],
-  ["/gallery/web.jpg", "WEB DEVELOPMENT", "CREATE"],
+  ["/gallery/web-devlopment.jpg", "WEB DEVELOPMENT", "CREATE"],
   ["/gallery/team.jpg", "THE COMMUNITY", "TOGETHER"],
 ];
 const people = [
@@ -23,8 +23,8 @@ const people = [
   ["/team/dhruvsharma.jpg", "Dhruv Sharma", "DESIGNER HEAD"],
 ];
 const events = [
-  ["01", "AI / ML WORKSHOP", "HANDS-ON · 2026", "/gallery/img1.jpg"],
-  ["02", "WEB-A-THON", "BUILD · SHIP · LEARN", "/gallery/web-a-thon.jpg"],
+  ["01", "AI / ML WORKSHOP", "HANDS-ON · 2026", "/gallery/workshop.jpg"],
+  ["02", "DESIGN-ATHON", "BUILD · SHIP · LEARN", "/gallery/design-athon.jpg"],
   ["03", "CARE-E-THON", "COMMUNITY · IMPACT", "/gallery/care-e-thon.jpg"],
   [
     "04",
@@ -307,7 +307,7 @@ function App() {
                 "Think faster. Code smarter.",
               ],
               [
-                "/gallery/care.jpg",
+                "/gallery/technology.jpg",
                 "03",
                 "SOCIAL IMPACT",
                 "Technology with purpose.",
