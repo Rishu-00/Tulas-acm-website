@@ -6,10 +6,12 @@ const gallery = [
   ["/gallery/acm_inauguration.jpg", "ACM INAUGURATION", "COMMUNITY"],
   ["/gallery/care-e-thon.jpg", "CARE-E-THON", "HACKATHON"],
   ["/gallery/workshop-session.jpg", "WORKSHOP SESSION", "LEARN"],
-  ["/gallery/design.jpg", "DESIGN-ATHON", "BUILD"],
-  ["/gallery/img2.jpg", "TECH TALK", "CONNECT"],
-  ["/gallery/img4.jpg", "CODING COMPETITION", "COMPETE"],
-  ["/gallery/web-devlopment.jpg", "WEB DEVELOPMENT", "CREATE"],
+  
+  ["/gallery/hackathon-2.jpg", "HACK THE FUTURE 2.0", "BUILD"],
+  
+  ["/gallery/img7.jpg", "TECH TALK", "CONNECT"],
+  ["/gallery/design.jpg", "DESIGN-ATHON", "COMPETE"],
+  ["/gallery/innovation.jpg", "INNOVATION", "CREATE"],
   ["/gallery/team.jpg", "THE COMMUNITY", "TOGETHER"],
 ];
 const people = [
@@ -23,6 +25,7 @@ const people = [
   ["/team/dhruvsharma.jpg", "Dhruv Sharma", "DESIGNER HEAD"],
 ];
 const events = [
+     ["02", "HACK THE FUTURE 2.0", "BUILD · SHIP · LEARN", "/gallery/hackathon2.jpg"],
   ["01", "AI / ML WORKSHOP", "HANDS-ON · 2026", "/gallery/workshop.jpg"],
   ["02", "DESIGN-ATHON", "BUILD · SHIP · LEARN", "/gallery/design-athon.jpg"],
   ["03", "CARE-E-THON", "COMMUNITY · IMPACT", "/gallery/care-e-thon.jpg"],
@@ -301,7 +304,7 @@ function App() {
             {[
               ["/gallery/web.jpg", "01", "WEB LAB", "Interfaces that move."],
               [
-                "/gallery/img4.jpg",
+                "/gallery/img5.jpg",
                 "02",
                 "COMPETITIVE",
                 "Think faster. Code smarter.",
